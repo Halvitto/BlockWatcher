@@ -1,5 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#202124"/>
-  <circle cx="256" cy="256" r="144" fill="none" stroke="#f5f5f0" stroke-width="36"/>
-  <path d="M256 160v104l76 44" fill="none" stroke="#ff6b5f" stroke-linecap="round" stroke-linejoin="round" stroke-width="36"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="BlockWatcher">
+  <defs>
+    <linearGradient id="shell" x1="96" y1="64" x2="416" y2="448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f2a26"/>
+      <stop offset="1" stop-color="#080b0a"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="130" y1="132" x2="382" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5af0b7"/>
+      <stop offset="1" stop-color="#149f86"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#shell)"/>
+  <path d="M128 150c0-22 18-40 40-40h176c22 0 40 18 40 40v212c0 22-18 40-40 40H168c-22 0-40-18-40-40V150Z" fill="#f4f6f1"/>
+  <path d="M128 150c0-22 18-40 40-40h176c22 0 40 18 40 40v36H128v-36Z" fill="#d9ded6"/>
+  <circle cx="172" cy="148" r="9" fill="#7a8279"/>
+  <circle cx="206" cy="148" r="9" fill="#7a8279"/>
+  <path d="M184 244l38 32-38 32" fill="none" stroke="#151715" stroke-linecap="round" stroke-linejoin="round" stroke-width="24"/>
+  <path d="M250 312h74" stroke="#151715" stroke-linecap="round" stroke-width="24"/>
+  <path d="M322 188v-36h-48" fill="none" stroke="url(#pulse)" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+  <path d="M190 360h-38v-50" fill="none" stroke="url(#pulse)" stroke-linecap="round" stroke-linejoin="round" stroke-width="28"/>
+  <path d="M322 188c30 22 50 58 50 98 0 67-54 121-121 121-20 0-40-5-57-14" fill="none" stroke="url(#pulse)" stroke-linecap="round" stroke-width="28"/>
+  <path d="M191 358c-30-22-50-57-50-98 0-66 54-120 120-120 21 0 40 5 57 14" fill="none" stroke="#42d6a7" stroke-linecap="round" stroke-width="14" opacity=".45"/>
+  <path d="M92 256h38M382 256h38M256 92v38M256 382v38" stroke="#42d6a7" stroke-linecap="round" stroke-width="18" opacity=".6"/>
 </svg>
