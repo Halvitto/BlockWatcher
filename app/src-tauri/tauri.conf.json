@@ -34,7 +34,12 @@
     ]
   },
   "bundle": {
-    "active": false,
-    "externalBin": ["binaries/ccusage"]
+    "active": true,
+    "targets": ["app", "dmg"],
+    "icon": ["icons/icon.png"],
+    "externalBin": ["binaries/ccusage"],
+    "macOS": {
+      "signingIdentity": "-"
+    }
   }
 }
