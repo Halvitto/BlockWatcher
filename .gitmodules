@@ -1,0 +1,3 @@
+[submodule "vendor/ccusage"]
+	path = vendor/ccusage
+	url = https://github.com/ccusage/ccusage.git

@@ -1,0 +1,6 @@
+/target
+/.claude
+/app/src-tauri/gen
+/app/src-tauri/binaries/ccusage-*
+/app/dist
+/app/node_modules

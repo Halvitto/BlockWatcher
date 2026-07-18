@@ -1,0 +1,6 @@
+this is not json at all
+{"truncated": "line that never clos
+{"type":"assistant","message":{"usage":{"input_tokens":5,"output_tokens":5}},"timestamp":"not-a-date"}
+42
+{"type":"user","message":{"role":"user","content":"valid json, no usage — skipped, not malformed"},"timestamp":"2026-07-17T16:47:00.000Z"}
+{"type":"assistant","uuid":"m1","timestamp":"2026-07-17T16:50:00.000Z","requestId":"req_ok","message":{"id":"msg_ok","model":"claude-sonnet-5","usage":{"input_tokens":"oops","output_tokens":25}},"unknownField":{"deeply":["nested"]}}

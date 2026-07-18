@@ -1,0 +1,65 @@
+BlockWatcher
+Copyright (c) 2026 BlockWatcher contributors
+
+ccusage
+-------
+
+BlockWatcher vendors ccusage as a git submodule at commit
+7acee6c5853c26fe66fbe1453bd94c9376afec06 and builds it as an offline Tauri
+sidecar. The Claude session-block computation in core/src/blocks.rs is also
+ported from ccusage.
+
+Source: https://github.com/ccusage/ccusage
+Copyright (c) 2025 ryoppippi
+License: MIT
+
+Lobe Icons
+----------
+
+Provider SVGs in app/src/assets/providers are selected from
+@lobehub/icons-static-svg version 1.93.0 unless listed below.
+
+Source: https://github.com/lobehub/lobe-icons
+Copyright (c) 2023 LobeHub
+License: MIT
+
+Provider organization assets
+----------------------------
+
+The following provider-specific images were retrieved from the public GitHub
+organization avatars on 2026-07-18:
+
+- Droid: https://github.com/Factory-AI
+- Codebuff: https://github.com/CodebuffAI
+- Zed: https://github.com/zed-industries
+- Warp: https://github.com/warpdotdev
+- Aider: https://github.com/Aider-AI
+- Continue: https://github.com/continuedev
+
+Trademarks
+----------
+
+All product names, logos, and brands are property of their respective owners.
+Their use identifies compatible products and does not imply endorsement,
+sponsorship, or affiliation with BlockWatcher.
+
+MIT license text for ccusage and Lobe Icons
+-------------------------------------------
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
